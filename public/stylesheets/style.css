@@ -24,10 +24,17 @@ body {
 }
 
 div {
+  display: flex;
   margin: 0;
   max-width: 100%;
 }
 
+.Contact-Container {
+  display: flex;
+  margin: 0;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
 .Profile-Content {
   display: flex;
   flex: 3;
@@ -55,9 +62,6 @@ div {
   line-height: normal;
   letter-spacing: normal;
   color: #29293e;
-}
-.Contact-Container {
-  margin-bottom: 40px;
 }
 .Contact-BTN {
   height: 60px;
